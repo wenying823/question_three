@@ -4,7 +4,7 @@
 。若換成自己設計類似的 middleware ，請描述一下會如何設計以及設計的做法。注意：不是如何使用
 middleware，而是假設自己為 laravel 作者，設計 middleware 供他人使用
 
-<br><br><br><br>
+<br><br>
 
 1.在app/http/Middleware下創建一個LogRequestMiddleware <br>
 2.為了要讓使用者能使用我們的自訂midedleware，所以須在app/http/kernel.php下的$routeMiddleware完成 <br>
